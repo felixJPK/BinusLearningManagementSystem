@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Set transparent background -->
+    <solid android:color="@android:color/transparent" />
+
+    <!-- Set border (stroke) color and width -->
+    <stroke
+        android:width="2dp"
+        android:color="#000000" /> <!-- Black border, change as needed -->
+
+    <!-- Set rounded corners -->
+    <corners android:radius="50dp" /> <!-- Makes it a pill shape -->
+</shape>
